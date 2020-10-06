@@ -1,3 +1,4 @@
+package Naver2020;
 
 public class SN {
 	public static void main(String[] args) {

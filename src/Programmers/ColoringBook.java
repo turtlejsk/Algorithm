@@ -17,8 +17,7 @@ public class ColoringBook {
 	}
 
 	public int[] solution(int m, int n, int[][] picture) {
-		int numberOfArea = 0;
-		int maxSizeOfOneArea = 0;
+	
 
 		Graph g = new Graph(m, n, picture);
 
