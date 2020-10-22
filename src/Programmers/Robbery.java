@@ -17,6 +17,7 @@ public class Robbery {
 			cache[0] = money[i];
 			cache[1] = money[i] < money[(i + 1) % length] ? money[(i + 1) % length] : money[i];
 			for (int j = 2; j < money.length; j++) {
+		
 				cache[j] = Math.max(cache[j - 1], cache[j - 2] + money[(i + j) % length]);
 			}
 
