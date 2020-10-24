@@ -2,7 +2,6 @@ package test;
 
 import java.util.*;
 
-import test.asdf.Num;
 
 public class Solution {
 

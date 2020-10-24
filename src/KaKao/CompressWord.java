@@ -37,7 +37,7 @@ public class CompressWord {
 
 				String nextPattern = s.substring(start, end);
 
-				while (pattern.equals(nextPattern) && end  <= s.length()) {
+				while (pattern.equals(nextPattern) && end <= s.length()) {
 
 					patterns.add(pattern);
 					tempMin -= i;
@@ -54,7 +54,7 @@ public class CompressWord {
 			}
 
 			tempMin += patterns.size();
-		
+
 			if (tempMin < minLength) {
 				minLength = tempMin;
 			}
