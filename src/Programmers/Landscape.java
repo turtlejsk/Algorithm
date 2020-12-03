@@ -60,7 +60,7 @@ public class Landscape {
 					for (int k = 0; k < 4; k++) {
 						int newX = x + dirX[k];
 						int newY = y + dirY[k];
-
+ 
 						if (newX < 0 || newX >= size || newY < 0 || newY >= size)
 							continue;
 						if (visited[newX][newY] >= 0)

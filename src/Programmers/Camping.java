@@ -3,19 +3,13 @@ package Programmers;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
+import org.junit.Test;
+
 public class Camping {
-	public static void main(String[] args) {
 
-		int n = 4;
-		int[][] data = { { 0, 0 }, { 1, 1 }, { 0, 2 }, { 2, 0 } };
-
-		int answer = 3;
-
-		Camping c = new Camping();
-
-		int ret = c.solution(n, data);
-		System.out.println(ret);
-		System.out.println(ret == answer);
+	@Test
+	public void test() {
+		
 	}
 
 	public int solution(int n, int[][] data) {
